@@ -1,0 +1,21 @@
+{
+  "name": "template_webpack_es6",
+  "version": "1.0.0",
+  "description": "template_es6",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "author": "Nickz <nick.apios@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0"
+  }
+}
